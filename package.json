@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@prisma/client": "^6.10.0",
+    "express": "^5.1.0"
+  },
+  "name": "task-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.10.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start:prod": "node build/index.js",
+    "start:dev": "nodemon src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
